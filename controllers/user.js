@@ -23,6 +23,15 @@ const registerUser = async (req, res) => {
     email: req.body.email,
   };
 
+  const alreadyRegistered = await User.findOne({email: req.body.email});
+  // console.log(alreadyRegistered);
+  if (alreadyRegistered) {
+    return res.json({
+      success: false,
+      message: "User is already Registered, Please login",
+    });
+  }
+
   const plainTextPass = req.body.password;
 
   const salt = await bcrypt.genSalt(10);

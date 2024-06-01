@@ -6,16 +6,17 @@ const validateRegistratinData = data => {
 
   if (!data.name) {
     err.hasError = true;
-    err.message = "Name is required";
+    err.message = "Name, ";
   }
   if (!data.email) {
     err.hasError = true;
-    err.message = "Email is required";
+    err.message = "Email ";
   }
   if (!data.password) {
     err.hasError = true;
-    err.message = "Password is required";
+    err.message = "and Password ";
   }
+  err.message = err.message + "is required";
 
   return err;
 };

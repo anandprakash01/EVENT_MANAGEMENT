@@ -26,7 +26,7 @@ const registerUser = async (req, res) => {
   const alreadyRegistered = await User.findOne({email: req.body.email});
   // console.log(alreadyRegistered);
   if (alreadyRegistered) {
-    return res.json({
+    return res.status(401).json({
       success: false,
       message: "User is already Registered, Please login",
     });

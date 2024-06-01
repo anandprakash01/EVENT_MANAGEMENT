@@ -1,0 +1,17 @@
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T07:39:48.024Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T07:46:41.741Z"}
+{"email":"xyzdd@gmail.com","level":"info","message":"USER_NOT_REGISTERED","timestamp":"2024-06-01T07:48:20.989Z"}
+{"email":"xyz@gmail.com","level":"info","message":"EMAIL_PASSWORD_INCORRECT","timestamp":"2024-06-01T07:48:32.691Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T12:45:12.704Z"}
+{"email":"Dxyz@gmail.com","level":"info","message":"LOGIN_FALIURE","reason":"USER_NOT_REGISTERED with id Dxyz@gmail.com","timestamp":"2024-06-01T12:57:55.208Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL Logout successful for xyz@gmail.com","timestamp":1717247079269}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T14:22:12.313Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T18:15:05.688Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_FAILURE","reason":"USER_NOT_REGISTERED with id xyz@gmail.com","timestamp":"2024-06-01T21:39:12.841Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_FAILURE","reason":"USER_NOT_REGISTERED with id xyz@gmail.com","timestamp":"2024-06-01T21:39:47.132Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-01T21:40:38.329Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL","reason":"Logout successful for xyz@gmail.com","timestamp":"2024-06-01T21:41:08.726Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL","reason":"Logout successful for xyz@gmail.com","timestamp":"2024-06-01T21:41:52.332Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL","reason":"Logout successful for xyz@gmail.com","timestamp":"2024-06-01T21:43:54.234Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL","reason":"Logout successful for xyz@gmail.com","timestamp":"2024-06-01T21:44:24.039Z"}
+{"level":"info","message":"LOGOUT_SUCCESSFUL","reason":"Logout successful for xyz@gmail.com","timestamp":"2024-06-01T21:46:45.142Z"}

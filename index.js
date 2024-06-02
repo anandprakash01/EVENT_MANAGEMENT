@@ -33,5 +33,5 @@ connectDB()
   });
 
 app.listen(port, () => {
-  console.log("Server is up and running at:", portNo);
+  console.log("Server is up and running at:", port);
 });

@@ -9,7 +9,8 @@ const authMiddleware = require("./middleware/auth.js");
 
 const app = express();
 
-const portNo = 5000;
+// const port = 5000;
+const port = process.env.PORT || 10000;
 
 app.use(express.json());
 
@@ -31,6 +32,6 @@ connectDB()
     console.log("Error while connecting MongoDB", err);
   });
 
-app.listen(portNo, () => {
+app.listen(port, () => {
   console.log("Server is up and running at:", portNo);
 });

@@ -19,9 +19,7 @@ app.use("/api/v1/user", userRoutes);
 
 const connectDB = async () => {
   //   await mongoose.connect("mongodb://localhost/event_management");
-  await mongoose.connect(
-    "mongodb+srv://anandprakash:U02V9wbhn0RVpGfp@cluster0.kwzerw3.mongodb.net/"
-  );
+  await mongoose.connect(process.env.MONGO_URI);
 }; //127.0.0.1
 
 connectDB()

@@ -115,6 +115,7 @@ const logoutUser = async (req, res) => {
   if (!req.headers.authorization) {
     return res.status(401).json({
       success: false,
+      message: "Please provide JWT token in the headers",
     });
   }
 

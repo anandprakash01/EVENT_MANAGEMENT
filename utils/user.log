@@ -41,3 +41,6 @@
 {"email":"abc@gmail.com","level":"info","message":"LOGIN_FAILURE","reason":"USER_NOT_REGISTERED with id abc@gmail.com","timestamp":"2024-06-03T00:22:40.941Z"}
 {"email":"123@gmail.com","level":"info","message":"LOGIN_FAILURE","reason":"USER_NOT_REGISTERED with id 123@gmail.com","timestamp":"2024-06-03T00:24:24.901Z"}
 {"email":"raj@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-03T00:24:45.099Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-04T16:51:47.923Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-04T16:52:39.591Z"}
+{"email":"xyz@gmail.com","level":"info","message":"LOGIN_SUCCESSFUL","timestamp":"2024-06-04T16:56:07.369Z"}

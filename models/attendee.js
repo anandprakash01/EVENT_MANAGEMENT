@@ -11,6 +11,6 @@ const attendeeSchema = {
   },
 };
 
-const Attendee = mongoose.model("attendee", attendeeSchema);
+const Attendee = mongoose.model("attendees", attendeeSchema);
 
 module.exports = Attendee;

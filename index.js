@@ -18,8 +18,8 @@ app.use("/api/v1/event", authMiddleware, eventRoutes);
 app.use("/api/v1/user", userRoutes);
 
 const connectDB = async () => {
-  //localhost:27017/
-  //127.0.0.1:27017/
+  //mongodb://localhost:27017/event_management
+  //mongodb://127.0.0.1:27017/event_management
   await mongoose.connect(process.env.MONGO_URI);
 };
 
